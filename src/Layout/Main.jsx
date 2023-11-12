@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Main = () => {
     return (
-        <div className=''>
+        <div draggable="false">
             <Navbar />
             <Outlet></Outlet>
             <Footer />
